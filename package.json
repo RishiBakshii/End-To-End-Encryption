@@ -1,0 +1,23 @@
+{
+  "name": "end-to-end",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"tsc -w\" \"nodemon dist/index.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aes256": "^1.1.0",
+    "crypto": "^1.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.13.0",
+    "concurrently": "^8.2.2",
+    "nodemon": "^3.1.2",
+    "typescript": "^5.4.5"
+  }
+}
